@@ -1,0 +1,32 @@
+{
+  "name": "node-processutils",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./build/Release/processUtils",
+  "dependencies": {
+    "nan": "^2.9.2",
+    "bindings": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-strohm/node-processutils.git"
+  },
+  "keywords": [
+    "InjectDLL",
+    "Windows",
+    "DLL",
+    "Injection"
+  ],
+  "author": "Nick Strohm",
+  "license": "GPL-3.0",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/nick-strohm/node-processutils/issues"
+  },
+  "homepage": "https://github.com/nick-strohm/node-processutils#readme"
+}
